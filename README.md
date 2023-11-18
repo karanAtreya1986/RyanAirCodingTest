@@ -41,6 +41,19 @@ The methods in these classes calls the respective page objects.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/1bc06c6f-614e-4519-bac3-26810907c1a9)
 
+featureFiles package-
+Contains the E2E scenario.
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/ccbd1155-9e05-4625-af77-278e45896355)
+
+extent.properties and extent-config.xml -> the files needed for generating extent spark html and pdf reports
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/1ffd5251-89d2-4a27-a353-c1bef46283dc)
+
+
+
+
+
 
 
 

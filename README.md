@@ -1,18 +1,18 @@
 # RyanAirCodingTest
 Below is the sample project structure:
 
-Config file reader class will read the properties from the configuration file.
+**Config file reader class will read the properties from the configuration file.**
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/1619a4fa-a8b7-429d-83ef-55384656e458)
 
-Enums package contains two classes-
+**Enums package contains two classes-**
 Driver Type - This will have the list of all browser names.
 Environment Type - This will have the list of environment names.
 This enum package is used bu dataProviders -> ConfigFileReader to call the correct browser and environment.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/f67a6155-63dc-49ab-a5ae-fd883bc9ee8f)
 
-Then we have the managers package.
+**Then we have the managers package.**
 It contains three files-
 FileReaderManager - which will read instantiate the config file reader if not done, else if it is instantiated return the object of that class.
 PageObjectManager - which will instantiate the individual page classes if not done, else if it is instantiated return the object of that class.
@@ -20,59 +20,59 @@ WebDriverManager - this is for driver management. This will get the environment 
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/90698d13-7da4-4ce4-bca8-38d9c7f76094)
 
-We have the pageObjects package which contain two classes-
+**We have the pageObjects package which contain two classes-**
 HomePage.java - all locators of home page and the methods in homepage
 SelectDesiredFlights.java - all locators of select flight page and the methods in select flights page.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/5f03adaf-7d2a-44ea-b7f0-9c3a9f063008)
 
-We have the cucumber package which contains the class TestContext.java.
+**We have the cucumber package which contains the class TestContext.java.**
 This is basically to maintain the same context of webdriver and page objects when traversing multiple step definition files, to avoid null pointer exceptions.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/faa4ede9-e451-4586-82d5-88d159ba4b5b)
 
-Runners package contains the runner file to run the E2E scenarios.
+**Runners package contains the runner file to run the E2E scenarios.**
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/ba2a455e-96da-4767-9d2c-926a8fb702e1)
 
-stepDefinitions package-
+**stepDefinitions package-**
 This contain the two step definition files for homePage and selectFlightsPage.
 The methods in these classes calls the respective page objects.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/1bc06c6f-614e-4519-bac3-26810907c1a9)
 
-featureFiles package-
+**featureFiles package-**
 Contains the E2E scenario.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/ccbd1155-9e05-4625-af77-278e45896355)
 
-extent.properties and extent-config.xml -> the files needed for generating extent spark html and pdf reports
+**extent.properties and extent-config.xml -> the files needed for generating extent spark html and pdf reports**
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/1ffd5251-89d2-4a27-a353-c1bef46283dc)
 
-BrowserDrivers - these are the browser executables for Chrome and Edge
+**BrowserDrivers - these are the browser executables for Chrome and Edge**
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/452c73e0-f3c1-4594-89b1-4d56ca4183d2)
 
-configs -
+**configs -**
 This contain the configuration.properties file.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/e8763697-ce5a-4bdd-ae38-ac482fbaf8c4)
 
-test output folder - contains the spark pdf report
-test-output folder contains the report in html form
+**test output folder - contains the spark pdf report
+test-output folder contains the report in html form**
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/e91e4514-112c-4a6a-92f0-a024cca32b05)
 
-pom file
+**pom file**
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/85965084-1882-4507-ae5d-5276b2d93970)
 
-Sample pdf report which got generated-
+**Sample pdf report which got generated-**
 
 [ExtentPdf.pdf](https://github.com/karanAtreya1986/RyanAirCodingTest/files/13400361/ExtentPdf.pdf)
 
-Sample index.html report which got generated-
+**Sample index.html report which got generated-**
 
 
 <!DOCTYPE html>

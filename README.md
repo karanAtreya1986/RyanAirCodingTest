@@ -20,6 +20,15 @@ WebDriverManager - this is for driver management. This will get the environment 
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/90698d13-7da4-4ce4-bca8-38d9c7f76094)
 
+We have the pageObjects package which contain two classes-
+HomePage.java - all locators of home page and the methods in homepage
+SelectDesiredFlights.java - all locators of select flight page and the methods in select flights page.
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/5f03adaf-7d2a-44ea-b7f0-9c3a9f063008)
+
+
+
+
 
 
 

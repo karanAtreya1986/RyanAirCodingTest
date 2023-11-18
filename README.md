@@ -35,6 +35,15 @@ Runners package contains the runner file to run the E2E scenarios.
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/ba2a455e-96da-4767-9d2c-926a8fb702e1)
 
+stepDefinitions package-
+This contain the two step definition files for homePage and selectFlightsPage.
+The methods in these classes calls the respective page objects.
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/1bc06c6f-614e-4519-bac3-26810907c1a9)
+
+
+
+
 
 
 

@@ -26,6 +26,19 @@ SelectDesiredFlights.java - all locators of select flight page and the methods i
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/5f03adaf-7d2a-44ea-b7f0-9c3a9f063008)
 
+We have the cucumber package which contains the class TestContext.java.
+This is basically to maintain the same context of webdriver and page objects when traversing multiple step definition files, to avoid null pointer exceptions.
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/faa4ede9-e451-4586-82d5-88d159ba4b5b)
+
+Runners package contains the runner file to run the E2E scenarios.
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/ba2a455e-96da-4767-9d2c-926a8fb702e1)
+
+
+
+
+
 
 
 

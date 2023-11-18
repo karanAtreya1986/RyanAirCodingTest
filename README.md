@@ -50,6 +50,15 @@ extent.properties and extent-config.xml -> the files needed for generating exten
 
 ![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/1ffd5251-89d2-4a27-a353-c1bef46283dc)
 
+BrowserDrivers - these are the browser executables for Chrome and Edge
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/452c73e0-f3c1-4594-89b1-4d56ca4183d2)
+
+configs -
+This contain the configuration.properties file.
+
+![image](https://github.com/karanAtreya1986/RyanAirCodingTest/assets/140405970/e8763697-ce5a-4bdd-ae38-ac482fbaf8c4)
+
 
 
 
